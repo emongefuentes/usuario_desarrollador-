@@ -8,7 +8,7 @@ def save_name(name):
         if file.tell() == 0:
             writer.writerow(["Name"])
         writer.writerow([name])
-    print(f"Name '{name}' saved successfully to {csv_file}.")
+    print(f"Nommmmbre '{name}' saved successfully to {csv_file}.")
 
 def show_names():
     try:
@@ -24,8 +24,8 @@ def show_names():
 while True:
     print("\n--- MENU ---")
     print("1. Save name")
-    print("2. Show names")
-    print("3. Exit")
+    print("2. Show ALL INSERTED names")
+    print("3. GET OUT")
 
     option = input("Choose an option (1/2/3): ")
 
