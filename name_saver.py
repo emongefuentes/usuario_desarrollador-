@@ -8,7 +8,7 @@ def save_name(name):
         if file.tell() == 0:
             writer.writerow(["Name"])
         writer.writerow([name])
-    print(f"Nommmmbre nombres por segunda vez '{name}' saved successfully to {csv_file}.")
+    print(f"Nommmmbre bla bla'{name}' saved successfully to {csv_file}.")
 
 def show_names():
     try:
