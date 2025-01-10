@@ -9,9 +9,8 @@ def save_name(name):
             writer.writerow(["Name"])
         writer.writerow([name])
 
-    print(f"Nommmmbre bla bla'{name}' saved successfully to {csv_file}.")
-
-    
+    print(f"He cambiado esta seccion en el nombre '{name}' saved successfully to {csv_file}.")
+    print("Esta es simplemente un nueva linea")
 
 
 def show_names():
