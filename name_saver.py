@@ -26,6 +26,7 @@ while True:
     print("1. Save name")
     print("2. Show ALL INSERTED names")
     print("3. GET OUT")
+    print("4. Cuarta opcion")
 
     option = input("Choose an option (1/2/3): ")
 
